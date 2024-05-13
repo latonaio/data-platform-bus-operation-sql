@@ -11,6 +11,7 @@ CREATE TABLE `data_platform_bus_operation_header_data`
   `ArrivingTime`                 time(16) NOT NULL,
   `Description`                  varchar(60) NOT NULL,
   `OperationRemarks`             varchar(100) DEFAULT NULL,
+  `OperationCode`                varchar(40) DEFAULT NULL,
   `ValidityStartDate`            date NOT NULL,
   `ValidityEndDate`              date NOT NULL,
   `CreationDate`                 date NOT NULL,
